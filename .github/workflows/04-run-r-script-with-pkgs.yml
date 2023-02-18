@@ -19,4 +19,4 @@ jobs:
             any::fs
 
       - name: run-script
-        run: Rscript scripts/04-r-script.R        
+        run: Rscript scripts/04-r-script.R
