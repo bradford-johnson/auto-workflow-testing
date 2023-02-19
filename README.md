@@ -1,1 +1,1 @@
-# auto-workflow-testing
+# testing github actions and `R` workflows
