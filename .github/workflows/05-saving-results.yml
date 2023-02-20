@@ -19,6 +19,8 @@ jobs:
           packages:
             any::tidyverse
             any::gapminder
+            any::showtext
+            any::htmltools
 
       - name: run-script
         run: Rscript scripts/04-r-script.R        
