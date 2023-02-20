@@ -18,6 +18,7 @@ jobs:
           cache-version: 2
           packages:
             any::tidyverse
+            any::gapminder
 
       - name: run-script
         run: Rscript scripts/04-r-script.R        
