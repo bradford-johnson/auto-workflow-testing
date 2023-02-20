@@ -8,6 +8,9 @@ showtext_auto()
 font_add(family = "fb",
          regular = "fonts/Font Awesome 6 Brands-Regular-400.otf")
 
+font_add_google(name = "Ubuntu", family = "Ubuntu")
+font <- "Ubuntu"
+
 caption = paste0("<span style='font-family:fb;'>&#xf09b;</span>",
                  "<span style='font-family:sans;color:white;'>.</span>",
                  "<span style='font-family:sans;'>bradfordjohnson</span>")
