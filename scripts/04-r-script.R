@@ -21,7 +21,7 @@ df |>
   filter(country == "United States") |>
   ggplot(aes(x = year, y = lifeExp)) +
   geom_line() +
-  labs(title = "This is a test plot",
+  labs(title = "This plot was made using R and GitHub Actions",
       caption = caption) +
    theme(
       plot.title = element_text(family = font, face = "bold", hjust = 0.5, vjust = 0, size = 58),
