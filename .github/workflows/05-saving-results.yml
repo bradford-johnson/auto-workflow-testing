@@ -21,6 +21,7 @@ jobs:
             any::gapminder
             any::showtext
             any::htmltools
+            any::ggtext
 
       - name: run-script
         run: Rscript scripts/04-r-script.R        
