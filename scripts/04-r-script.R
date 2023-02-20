@@ -9,3 +9,4 @@ df |>
   geom_line() +
   labs(title = "This is a test plot")
 
+ggsave("plot.png", width = 5, height = 5)
