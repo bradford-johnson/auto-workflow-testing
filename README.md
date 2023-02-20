@@ -5,3 +5,5 @@
 [![04-run-r-script-with-pkgs](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/04-run-r-script-with-pkgs.yml/badge.svg)](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/04-run-r-script-with-pkgs.yml)
 [![05-saving-results](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/05-saving-results.yml/badge.svg)](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/05-saving-results.yml)
 [![06-event-schedule](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/06-schedule.yml/badge.svg)](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/06-schedule.yml)
+
+[![07-hello-r-world](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/daily-greeting.yml/badge.svg)](https://github.com/bradfordjohnson/auto-workflow-testing/actions/workflows/daily-greeting.yml)
