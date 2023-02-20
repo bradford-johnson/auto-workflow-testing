@@ -17,8 +17,7 @@ jobs:
         with:
           cache-version: 2
           packages:
-            any::httr
-            any::fs
+            any::tidyverse
 
       - name: run-script
         run: Rscript scripts/04-r-script.R        
