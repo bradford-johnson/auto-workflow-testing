@@ -1,19 +1,11 @@
-library(httr)
-library(fs)
+library(tidyverse)
+library(gapminder)
 
-print("Checking which files we have:")
-dir_ls()
+df <- gapminder
 
-#  the URL 
-url_download = "https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel"
+df |>
+  filter(country == "United States") |>
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line() +
+  labs(title = "This is a test plot")
 
-# file name to save
-file_name = paste0("sigbm_download_", Sys.Date(), ".xlsx")
-
-
-print("Making a POST request and writing file on disk:")
-POST(url_download, write_disk(file_name, overwrite = TRUE))
-
-
-print("Checking which files we have:")
-dir_ls()
