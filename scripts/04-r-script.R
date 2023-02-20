@@ -1,5 +1,9 @@
 library(tidyverse)
 library(gapminder)
+library(showtext)
+library(htmltools)
+
+showtext_auto()
 
 df <- gapminder
 
